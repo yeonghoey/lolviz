@@ -6,11 +6,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   mode: 'production',
 
-  entry: './src/index.js',
+  entry: './src/main.js',
 
   output: {
     path: path.resolve('dist'),
-    filename: 'index_bundle.js'
+    filename: 'bundle.js'
   },
 
   module: {
